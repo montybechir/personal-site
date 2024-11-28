@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"window.zoomLevel": 0.40,
+		"workbench.tree.indent": 25,
+		"eslint.enable": true,
+		"eslint.run": "onSave",
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact",
+		], 
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit",
+			"source.fixAll.tslint": "explicit"
+		},
+		"eslint.options": {
+			"overrideConfigFile": "/Users/montasir/dev/personal-site/.eslintrc.json"
+		},
+		"eslint.nodePath": "/Users/montasir/dev/personal-site/node_modules", 
+		"jest.runMode": "on-demand"
+	}
+}
