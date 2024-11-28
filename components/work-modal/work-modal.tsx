@@ -12,17 +12,14 @@ import {
 
 interface WorkModalProps {
     isOpen: boolean;
-    onOpenChange: () => void;
     workExperience: WorkExperience | null;
     onClose: () => void;
 }
 
 export default function WorkModal({
     workExperience,
-    onOpenChange,
     onClose,
     isOpen
-
 } : WorkModalProps) {
 
     if (!workExperience) return null;

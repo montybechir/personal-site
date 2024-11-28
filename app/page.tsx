@@ -10,7 +10,7 @@ import ConnectSection from "@/components/sections/connect-section";
 export default function Home() {
 
 
-    const { isOpen, onOpenChange, onClose, onPressWorkCard , workExperience} = useWorkModal();
+    const { isOpen, onClose, onPressWorkCard , workExperience} = useWorkModal();
   
 
     return (
@@ -28,7 +28,6 @@ export default function Home() {
             <WorkModal
                 onClose={onClose}
                 isOpen={isOpen}
-                onOpenChange={onOpenChange}
                 workExperience={workExperience}
             />
         </div>
