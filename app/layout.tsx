@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+
     themeColor: [
         { media: "(prefers-color-scheme: light)", color: "white" },
         { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -36,12 +37,12 @@ export default function RootLayout({
             <head />
             <body
                 className={clsx(
-                    "min-h-screen bg-background font-sans antialiased",
+                    "min-h-screen bg-background font-sans antialiased w-screen",
                     fontSans.variable,
                 )}
             >
                 <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-                    <div className="relative flex flex-col min-h-screen w-full overflow-x-hidden">
+                    <div className="relative flex flex-col min-h-screen w-full">
                         <Navbar />
                         <main className="relative mx-auto max-w-7xl pt-16 px-6 flex-grow">
                             {children}

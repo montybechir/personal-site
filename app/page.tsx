@@ -14,7 +14,7 @@ export default function Home() {
   
 
     return (
-        <div>
+        <>
             <HeroSection id="hero"/>
         
             <WorkExperienceSection
@@ -23,13 +23,13 @@ export default function Home() {
             />
 
             <ArticlesSection id="articles"/>
-
+            
             <ConnectSection id="connect"/>
             <WorkModal
                 onClose={onClose}
                 isOpen={isOpen}
                 workExperience={workExperience}
-            />
-        </div>
+            /> 
+        </>
     );
 }
