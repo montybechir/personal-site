@@ -7,14 +7,14 @@ export default function HeroSection({id}: {id: string}) {
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">  
                 <div className="md:w-1/2">
                     <span className={title()}>
-                        Proven Product Manager & <br/>Full-Stack Engineer
+                        Proven Senior Software Engineer &<br/> Growth Engineer
                     </span>
                     <div className={subtitle({ class: "mt-4" })}>
-                        Hi, I'm Monty - co-founder of Vybes, we're an AI-driven social network designed to helped Gen Z connect with themselves and others through shared interests. I've been a product manager for three years and wrote all of Vybes' mobile front-end and backend code entirely on my own over the past two years.
+                        Hi, I'm Monty - I'm currently a Senior Software Engineer on the growth team at EverCommerce, where I focus on driving user activation and revenue.
                         <br /><br />
-                        Prior to Vybes, I was on the web operations/devops team at Morgan Stanley for 2.5 years. In college, I obtained two bachelor of science degrees; one in computer science and another in geophysics. I had two internship terms at Devon Energy, a fortune 500 oil & gas company, where I worked on business analysis and machine learning prediction models.
+                        Previously, I co-founded Vybes, an AI-driven social platform for Gen Z, where I built the entire full-stack application and led product strategy. Before that, I spent 2.5 years in web operations at Morgan Stanley and completed internships at Devon Energy working on ML prediction models.
                         <br/><br/>
-                        I occasionally write about startups, venture capital, and the intersection of technology and society on my Substack. Outside of work, I've always been a huge sports fan and competed as a sprinter on the Dinos Track & Field Team in university. Now, I help coach my younger brother who is an aspiring soccer player.
+                        I write about startups and technology on Substack, and when I'm not coding, you'll find me running or coaching my younger brother who's an aspiring soccer athlete.
                     </div>
                 </div>
         
